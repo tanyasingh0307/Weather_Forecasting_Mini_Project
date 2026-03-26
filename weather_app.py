@@ -3,7 +3,7 @@ from tkinter import messagebox
 import requests
 
 def get_weather(city):
-    api_key = "YOUR_API_KEY"
+    api_key = "YOUR_API_KEY_Never_Write_in_Frontend"
     url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
     try:
         response = requests.get(url)
